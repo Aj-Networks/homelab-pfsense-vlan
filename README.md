@@ -139,4 +139,4 @@ Full enterprise-style manuals in [`/docs`](docs/):
 
 - This is a personal-use lab. All IPs, configs, and keys in the full docs are real and unredacted — that's intentional.
 - VLAN 40 (Lab) generates expected Cisco protocol noise; it's isolated and excluded from IDS monitoring for this reason.
-- - The R6400 Guest SSID currently lands on VLAN 10 — mitigated by internal guest isolation. No AP upgrade planned at this time.
+- The R6400 Guest SSID currently lands on VLAN 10 — mitigated by internal guest isolation. No AP upgrade planned at this time.

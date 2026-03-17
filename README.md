@@ -3,8 +3,7 @@
 A production-grade home lab network built on pfSense 2.8.1 with full VLAN segmentation, dual-VPN failover, a 5-layer kill switch, and enterprise-style documentation. Personal use. Nothing redacted.
 > Built over 6–8 months of weekend work — designed, broken, fixed, and hardened from scratch. No tutorials followed end-to-end. Every decision was researched, tested, and documented.
 ---
-> [!CAUTION]
-> # **DO NOT FORGET TO BACKUP CONFIGURATION**
+![caution](https://img.shields.io/badge/caution-do%20not%20forget%20to%20backup%20configuration-red?style=for-the-badge)
 
 ## 🔧 Hardware
 

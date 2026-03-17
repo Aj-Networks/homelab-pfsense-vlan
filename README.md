@@ -128,10 +128,10 @@ Full enterprise-style manuals in [`/docs`](docs/):
 
 ## 🗺️ Roadmap
 
-- [ ] **Tailscale remote access** — Advertised routes `10.10.1.0/24` and `10.10.10.0/24` pending
-- [ ] **AP hardware upgrade** — Replace Netgear R6400 (no VLAN tagging) with a VLAN-aware AP (TP-Link EAP245 or Ubiquiti UniFi U6 Lite) to properly isolate Guest SSID onto VLAN 30
-- [ ] **Suricata IDS** — Alert-only mode across WAN, VLAN10, VLAN20, VLAN30 *(in progress)*
-- [ ] **Guest rate limiting** — Traffic shaping on VLAN 30
+- [x] **Tailscale remote access** — Advertised routes configured and active - tested - March 11, 2026
+- [ ] **Suricata IDS** — In progress; evaluating pfBlockerNG as Suricata is limited to HTTP traffic only
+- [ ] **Guest Wi-Fi rate limiting** — Guest SSID active but rate limiting deferred due to hardware limitations (R6400 has no VLAN-aware SSID support); may revisit in future
+- [ ] **AP hardware upgrade** — VLAN-aware AP (TP-Link EAP245 or Ubiquiti UniFi U6 Lite) not intended at this time
 
 ---
 

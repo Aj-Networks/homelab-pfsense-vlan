@@ -50,5 +50,5 @@ The NAT and firewall layers ensure that if both tunnels drop simultaneously, tra
 ## Verified Behavior
 
 - Failover CHI → NYC confirmed under simulated tunnel failure
-- Zero DNS/IP/WebRTC leaks confirmed via [ipleak.net](https://ipleak.net) on both tunnels
+- Zero DNS/IP/WebRTC leaks confirmed via [ipleak.net](https://ipleak.net) and [Mullvad Check](https://mullvad.net/en/check) ([ipleak screenshot](../screenshots/ipleak.png)) ([mullvad screenshot](../screenshots/mullvad.png)) on both tunnels
 - DNS remains on Mullvad servers throughout failover — no ISP DNS exposure

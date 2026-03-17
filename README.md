@@ -110,9 +110,9 @@ Sanitized, readable breakdowns of every major configuration area live in [`/conf
 
 Full enterprise-style manuals in [`/docs`](docs/):
 
-- **HOME_LAB_v3.pdf** — Master reference: full architecture, all configs, live screenshots
-- **FIREWALL_RULES_MANUAL.pdf** — Deep-dive on every firewall rule and the reasoning behind it
-- **SWITCH_VLAN_MANUAL.pdf** — Switch 802.1Q config, port map, and management setup
+- [`HOME_LAB_v2.pdf`](docs/HOME_LAB_v2.pdf)
+- [`FIREWALL_RULES_MANUAL.pdf`](docs/FIREWALL_RULES_MANUAL.pdf)
+- [`SWITCH_VLAN_MANUAL.pdf`](docs/SWITCH_VLAN_MANUAL.pdf)
 
 ---
 

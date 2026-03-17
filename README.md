@@ -59,7 +59,7 @@ Physical ports `igb2`–`igb5` are named and reserved for OOB, Lab Direct, HA, a
 
 | | |
 |---|---|
-| ![Network Topology](diagrams/network-topology-overview.png) | ![VLAN/IP Detail](diagrams/vlan-ip-assignment-detail.png) |
+| ![Network Topology](diagrams/Slide1.PNG) | ![VLAN/IP Detail](diagrams/Slide2.PNG) |
 | Network topology overview | VLAN & IP assignment detail |
 
 ---

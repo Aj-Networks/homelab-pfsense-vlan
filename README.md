@@ -118,7 +118,7 @@ Full enterprise-style manuals in [`/docs`](docs/):
 
 ## ✅ Verified & Tested
 
-- **No IP/DNS/WebRTC leaks** — confirmed via [ipleak.net](https://ipleak.net) (shows Mullvad exit, zero leaks)
+- **No IP/DNS/WebRTC leaks** — confirmed via [ipleak.net](https://ipleak.net) and [Mullvad Check](https://mullvad.net/en/check) ([ipleak screenshot](screenshots/ipleak.png)) ([mullvad screenshot](screenshots/mullvad.png))
 - **VPN failover** — CHI → NYC promotion confirmed under simulated failure
 - **Inter-VLAN isolation** — All cross-VLAN pings blocked as expected
 - **Kill switch** — Confirmed no traffic reaches WAN under any internal-subnet condition

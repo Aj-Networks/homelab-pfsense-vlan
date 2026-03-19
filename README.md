@@ -25,7 +25,7 @@ A production-grade home lab network built on pfSense 2.8.1 with full VLAN segmen
 | igb0 | - | DHCP/ISP | WAN |
 | igb1 | 1 (Native) | 10.10.1.0/24 | Trunk / Switch management |
 | igb1.10 | 10 | 10.10.10.0/24 | Trusted users, PCs, Wi-Fi |
-| igb1.20 | 20 | 10.10.20.0/24 | IoT — printers, smart devices |
+| igb1.20 | 20 | 10.10.20.0/24 | IoT - printers, smart devices |
 | igb1.30 | 30 | 10.10.30.0/24 | Guest Wi-Fi |
 | igb1.40 | 40 | 10.10.40.0/24 | Cisco lab gear (fully isolated) |
 | igb1.50 | 50 | 10.10.50.0/24 | Break-glass management (no VPN) |
@@ -100,7 +100,7 @@ enterprise-homelab-pfsense-vlan/
 Sanitized, readable breakdowns of every major configuration area live in [`/configs`](configs/). These are meant to be human-readable references - not export files.
 
 - [`firewall-rules.md`](configs/firewall-rules.md) - Per-VLAN rule chains, ordered top-to-bottom
-- [`nat-rules.md`](configs/nat-rules.md) — All 12 manual outbound NAT rules
+- [`nat-rules.md`](configs/nat-rules.md) - All 12 manual outbound NAT rules
 - [`vlan-assignments.md`](configs/vlan-assignments.md) - Interface, subnet, and purpose map
 - [`switch-port-map.md`](configs/switch-port-map.md) - GS308E port-by-port PVID/tagged assignments
 - [`vpn-failover.md`](configs/vpn-failover.md) - WireGuard tunnel config and gateway group logic

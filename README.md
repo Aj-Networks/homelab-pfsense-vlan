@@ -52,7 +52,7 @@ Physical ports `igb2`–`igb5` are named and reserved for OOB, Lab Direct, HA, a
 
 **DNS:** Resolver bound to internal interfaces only, forwarding strictly through `VPN_CHI` and `VPN_NYC`. System DNS: `100.64.0.1` (CHI) and `100.64.0.2` (NYC). No leak path even during failover.
 
-**VLAN 50 (MGMT)** is intentionally exempt from the VPN and RFC1918 rules — it needs direct WAN access and full internal reach for break-glass admin.
+**VLAN 50 (MGMT)** is intentionally exempt from the VPN and RFC1918 rules - it needs direct WAN access and full internal reach for break-glass admin.
 
 ---
 

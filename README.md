@@ -129,9 +129,9 @@ Full enterprise-style manuals in [`/docs`](docs/):
 ## 🗺️ Roadmap
 
 - [x] **Tailscale remote access** - Advertised routes configured and active - tested - March 11, 2026
-- [⚠️] **Suricata IDS** - In progress; evaluating pfBlockerNG as Suricata is limited to HTTP traffic only
-- [⚠️] **Guest Wi-Fi rate limiting** - Guest SSID active but rate limiting deferred due to hardware limitations (R6400 has no VLAN-aware SSID support); may revisit in future
-- [⚠️] **AP hardware upgrade** - VLAN-aware AP (TP-Link EAP245 or Ubiquiti UniFi U6 Lite) not intended at this time
+- [x] **Suricata IDS** - In progress; evaluating pfBlockerNG as Suricata is limited to HTTP traffic only
+- [x] **Guest Wi-Fi rate limiting** - Guest SSID active but rate limiting deferred due to hardware limitations (R6400 has no VLAN-aware SSID support); may revisit in future
+- [x] **AP hardware upgrade** - VLAN-aware AP (TP-Link EAP245 or Ubiquiti UniFi U6 Lite) not intended at this time
 
 ---
 

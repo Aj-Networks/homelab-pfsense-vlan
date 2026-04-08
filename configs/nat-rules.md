@@ -37,3 +37,4 @@ There are **zero rules mapping internal subnets to WAN** — this is the foundat
 - **Manual mode is required** — Auto Outbound NAT would create WAN rules automatically, breaking the kill switch
 - **Every subnet has a rule on both tunnels** — ensures clean failover with no gap
 - **No WAN NAT rules exist** — if both VPN tunnels drop, traffic is blocked, not leaked
+- **VLAN 50 NAT rules (6 and 12) are intentionally unused** — VLAN 50 routes via WAN directly by firewall design, so these rules never fire. They exist to keep the subnet list symmetric across both tunnels.

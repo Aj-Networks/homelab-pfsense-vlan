@@ -18,7 +18,7 @@
 | 5 | Access | 20 | — | IoT device |
 | 6 | Access | 40 | — | Cisco Catalyst 3560 |
 | 7 | Access | 40 | — | Cisco 1900 Router |
-| 8 | Access | 50 | — | MGMT spare |
+| 8 | Access | 50 | — | MGMT spare — unplugged when not in use |
 
 ---
 
@@ -27,4 +27,4 @@
 - Port 1 carries all VLANs tagged + native VLAN 1 untagged — this is the trunk uplink to pfSense
 - Ports 2–8 are untagged access ports — devices on these ports have no awareness of VLANs
 - VLAN 40 ports (6 & 7) are fully isolated from all other VLANs via firewall rules
-- Port 8 is a spare management port — connect a laptop here for break-glass admin access to all VLANs
+- Port 8 lands on VLAN 50 (MGMT), which has full internal reach and direct WAN access. Physical access to this port = full network access. Keep unplugged when not in active use.
